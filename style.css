@@ -1,82 +1,117 @@
 body {
-    background-color: #EEE;
-    font-family: 'Sarabun',Helvetica, Arial, sans-serif;
+  background-color: #EEE;
+  font-family: 'Sarabun',Helvetica, Arial, sans-serif;
 }
 
 a {
-  text-decoration: none;
-  color: #B23333;
+text-decoration: none;
+color: #003333;
 }
 
 h1, h2, h3  {
-  margin: 0;
-  padding: 10px;
+margin: 0;
+padding: 10px;
 }
 
 #container {
-    background-color: white;
-    width: 1000px;
-    margin-left: auto;
-    margin-right:auto;
+  background-color: #87CEEB;
+  width: 1000px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 #header {
-    background-color: #18453B;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-#content {
+  background-color: #18453B;
+  color: white;
+  text-align: center;
   padding: 10px;
 }
 
+#content {
+padding: 10px;
+}
+
 #nav {
-  width: 150px;
-  float: left;
-  padding: 20px;
+width: 150px;
+float: left;
+padding: 20px;
 }
 
 #nav ul {
-  list-style-type: none;
-  padding: 0;
+list-style-type: none;
+padding: 0;
 }
 
 
 #nav .selected {
-  font-weight: bold;
+font-weight: bold;
 }
 
 #main {
-  width: 750px;
-  float: right;
+width: 750px;
+float: right;
 
 }
 
 #student-group {
-  clear: both;
-  margin: 20px;
-  border: 20px;
-  padding: 10px;
-  background-color:  #d3d3d3;
-  color: black;
-  text-align: left;
+clear: both;
+margin: 20px;
+border: 20px;
+padding: 10px;
+background-color:  #d3d3d3;
+color: black;
+text-align: left;
 }
 
 #footer {
-  clear: both;
-  padding: 10px;
-  background-color: #97a2a2;
-  color: white;
-  text-align: right;
+clear: both;
+padding: 10px;
+background-color: #97a2a2;
+color: white;
+text-align: right;
 }
 .schedule-date {
-  font-weight: bold;
-  color: black;
-  text-align: right;
+font-weight: bold;
+color: black;
+text-align: right;
 }
 .schedule-resources {
-  font-weight: lighter;
-  color: black;
-  text-align: left;
+font-weight: lighter;
+color: black;
+text-align: left;
 }
+table, th, td { border: 1px solid black;
+  padding: 10px;
+  margin-bottom:20px; 
+}
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: 230px 230px 230px;
+  grid-gap: 5px;
+
+}
+
+.grid-item { background-color: #d3d3d3;
+  padding: 15px;
+  text-align: center;
+  clear: both;
+  margin: 20px;
+  border-radius: 0px;
+  padding: 20px;
+  color: black;
+  font-size: 15px;
+
+
+.pic {
+  float: right;
+  margin-top: 70px;
+  margin-right: 70px;
+  height: 4cm;
+  width: 4cm;
+}
+ 
+  h4{
+    margin:0; 
+    padding: 5px;
+  }
